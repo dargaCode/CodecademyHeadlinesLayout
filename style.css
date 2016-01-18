@@ -35,7 +35,7 @@ html, body {
   background-color: black;
   color: white;
   text-align: left;
-  padding-top: 50px;
+  padding: 50px 0;
 }
 
 .footer h4 {
@@ -47,4 +47,37 @@ html, body {
 .footer p {
   font-size: 12px;
   margin: 2px 0;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer ul li {
+  display: inline;
+}
+
+.footer ul li a {
+  display: inline-block;
+  font-size: 0;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  position: relative;
+  top: -8px;
+  cursor: pointer;
+}
+
+.footer ul li:nth-child(1) a {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/headlines/email.svg);
+}
+
+.footer ul li:nth-child(2) a {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/headlines/fb.svg);
+}
+
+.footer ul li:nth-child(3) a {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/headlines/twitter.svg);
 }
