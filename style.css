@@ -181,16 +181,16 @@ html, body {
 
 /*stop scaling cards*/
 @media (min-width: 768px) {
+    
+  .container {
+    max-width: 750px;
+  }
   
   .jumbotron h1 {
     width: 90%;
     top: 160px;
   }
-  
-  .container {
-    max-width: 750px;
-  }
-  
+
   .cards .row .column {
     background-color: red;
   }
@@ -200,15 +200,15 @@ html, body {
 /*pop cards into columns*/
 @media (min-width: 992px) {
   
+  .container {
+    max-width: 940px;
+  }
+  
   .jumbotron h1 {
     width: 730px;
     font-size: 48px;
     margin-left: 10px;
-  }
-  
-  .container {
-    max-width: 940px;
-  }
+  }  
   
   .cards .row .column {
     background-color: darkviolet;
