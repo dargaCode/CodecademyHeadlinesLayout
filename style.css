@@ -8,7 +8,6 @@ html, body {
 }
 
 .container {
-  max-width: 940px;
   margin: 0 auto;
 }
 
@@ -25,20 +24,17 @@ html, body {
 
 
 
+
 /*CARDS*/
 
-.cards {
-
-}
 
 .cards .row {
-
+  margin-bottom: 80px;
 }
 
 .cards .row .column {
   margin: 15px;
 }
-
 
 .cards .row .column img {
   width: 100%;
@@ -106,6 +102,56 @@ html, body {
   background-image: url(https://s3.amazonaws.com/codecademy-content/projects/headlines/twitter.svg);
 }
 
-/*MEDIA QUERIES*/
 
-// 768 992 1200 
+/*MEDIA QUERIES*/
+/*common breaks: 768 992 1200 */
+
+
+/*start scaling images*/
+@media (min-width: 500px) {
+  
+  .cards {
+    background-color: aqua;
+  }
+  
+  .cards .row {
+    margin-bottom: 100px;
+  }
+  
+  .cards .row .column img {
+    width: 60%;
+  }
+  
+}
+
+/*stop scaling images*/
+@media (min-width: 768px) {
+  
+  .container {
+    max-width: 750px;
+  }
+  
+  .cards {
+    background-color: red;
+  }
+  
+}
+
+/*pop into columns*/
+@media (min-width: 992px) {
+  
+  .container {
+    max-width: 940px;
+  }
+  
+  .cards .row .column {
+    width: 33.33%;
+    float: left;
+    margin: 0 0 80px;
+  }
+  
+  .cards .row .column img {
+    width: auto;
+  }
+  
+}
