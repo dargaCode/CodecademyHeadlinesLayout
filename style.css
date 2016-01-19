@@ -36,7 +36,7 @@ html, body {
   margin: 0;
   padding: 0;
   position: relative;
-  top: 125px;
+  top: 80px;
 }
 
 .jumbotron span {
@@ -159,10 +159,10 @@ html, body {
 @media (min-width: 500px) {
   
   .jumbotron h1 {
-    width: 93%;
+    width: 95%;
     font-size: 40px;
     font-weight: 500;
-    top: 140px;
+    top: 120px;
   }
   
   .banner {
@@ -191,8 +191,8 @@ html, body {
   }
 
   .jumbotron h1 {
-    width: 90%;
-    top: 160px;
+    width: 605px;
+    top: 180px;
   }
   
 }
@@ -208,6 +208,7 @@ html, body {
     width: 730px;
     font-size: 48px;
     margin-left: 10px;
+    top: 170px;
   }  
 
   .banner {
