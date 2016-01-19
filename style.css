@@ -140,6 +140,10 @@ html, body {
 /*pop into columns*/
 @media (min-width: 992px) {
   
+  .cards {
+    background-color: darkviolet;
+  }
+  
   .container {
     max-width: 940px;
   }
@@ -152,6 +156,11 @@ html, body {
   
   .cards .row .column img {
     width: auto;
+  }
+  
+  .footer .container {
+    width: 100%;
+    padding-left: 15px;
   }
   
 }
