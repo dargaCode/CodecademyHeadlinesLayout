@@ -4,6 +4,7 @@ html, body {
   text-align: center;
   padding: 0;
   margin: 0;
+  background-color: #FFC200;
 }
 
 .container {
@@ -26,11 +27,34 @@ html, body {
 
 /*CARDS*/
 
+.cards {
 
+}
+
+.cards .row {
+
+}
+
+.cards .row .column {
+  margin: 15px;
+}
+
+
+.cards .row .column img {
+  width: 100%;
+  display: block;
+  margin: 0 auto 25px;
+}
 
 /*FOOTER*/
 
+.footer .container {
+  width: 115px
+  
+}
+
 .footer {
+  clear: both;
   height: 180px;
   background-color: black;
   color: white;
@@ -81,3 +105,7 @@ html, body {
 .footer ul li:nth-child(3) a {
   background-image: url(https://s3.amazonaws.com/codecademy-content/projects/headlines/twitter.svg);
 }
+
+/*MEDIA QUERIES*/
+
+// 768 992 1200 
