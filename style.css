@@ -25,11 +25,21 @@ html, body {
 
 
 
+
 /*CARDS*/
 
+.cards {
+  padding-top: 60px;  
+}
+
+.cards h3 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #333333;
+}
 
 .cards .row {
-  margin-bottom: 80px;
+  margin: 50px 0 80px;
 }
 
 .cards .row .column {
