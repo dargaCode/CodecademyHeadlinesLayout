@@ -165,14 +165,14 @@ html, body {
     top: 140px;
   }
   
-  .cards .row {
-    margin-bottom: 100px;
-  }
-  
-  .cards .row .column {
+  .banner {
     background-color: aqua;
   }
   
+  .cards .row {
+    margin-bottom: 100px;
+  }
+    
   .cards .row .column img {
     width: 60%;
   }
@@ -185,14 +185,14 @@ html, body {
   .container {
     max-width: 750px;
   }
-  
+
+  .banner {
+    background-color: red;
+  }
+
   .jumbotron h1 {
     width: 90%;
     top: 160px;
-  }
-
-  .cards .row .column {
-    background-color: red;
   }
   
 }
@@ -209,9 +209,12 @@ html, body {
     font-size: 48px;
     margin-left: 10px;
   }  
+
+  .banner {
+    background-color: darkviolet;
+  }
   
   .cards .row .column {
-    background-color: darkviolet;
     width: 33.33%;
     float: left;
     margin: 0 0 80px;
