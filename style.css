@@ -134,13 +134,13 @@ html, body {
 
 /*start scaling images*/
 @media (min-width: 500px) {
-  
-  .cards {
-    background-color: aqua;
-  }
-  
+    
   .cards .row {
     margin-bottom: 100px;
+  }
+  
+  .cards .row .column {
+    background-color: aqua;
   }
   
   .cards .row .column img {
@@ -156,7 +156,7 @@ html, body {
     max-width: 750px;
   }
   
-  .cards {
+  .cards .row .column {
     background-color: red;
   }
   
@@ -165,15 +165,12 @@ html, body {
 /*pop into columns*/
 @media (min-width: 992px) {
   
-  .cards {
-    background-color: darkviolet;
-  }
-  
   .container {
     max-width: 940px;
   }
   
   .cards .row .column {
+    background-color: darkviolet;
     width: 33.33%;
     float: left;
     margin: 0 0 80px;
