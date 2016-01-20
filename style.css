@@ -17,7 +17,6 @@ html, body {
 .header {
   padding: 15px 0 0;
   background-color: #FFC200;
-  border-bottom: 1px solid #AAAAAA;
 }
 
 .header h1 {
@@ -43,7 +42,7 @@ html, body {
   text-decoration: none;
   font-size: 14px;
   margin: 0;
-  padding: 10px 0;
+  padding: 12px 20px;
 }
 
 .header ul li a:hover {
@@ -188,7 +187,16 @@ html, body {
 
 
 /*start scaling cards*/
+/*pop nav inline*/
 @media (min-width: 500px) {
+  
+  .header ul li {
+    display: inline-block;
+  }
+  
+  .header ul li a {
+    margin: 0 -2.5px;
+  }
   
   .jumbotron h1 {
     max-width: inherit;
@@ -232,10 +240,29 @@ html, body {
 }
 
 /*pop cards into columns*/
+/*pop header into columns*/
 @media (min-width: 992px) {
   
   .container {
     max-width: 940px;
+  }
+  
+  .header {
+    padding-top: 25px;
+  }
+  
+  .header h1 {
+    float: left;
+    margin: 0 0 0 10px;
+  }
+  
+  .header ul {
+    float: right;
+    margin-right: 10px;
+  }
+  
+  .jumbotron {
+    clear: both;
   }
   
   .jumbotron h1 {
