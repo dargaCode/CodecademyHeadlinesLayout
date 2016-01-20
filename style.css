@@ -17,6 +17,8 @@ html, body {
 
 .header {
   padding: 15px 0 0;
+  background-color: #EEEEEE;
+  border-bottom: 1px solid #AAAAAA;
 }
 
 .header h1 {
@@ -37,15 +39,16 @@ html, body {
 }
 
 .header ul li a {
-  display: inline-block;
+  display: block;
   color: #333333;
   text-decoration: none;
   font-size: 14px;
-  margin: 10px 0;
+  margin: 0;
+  padding: 10px 0;
 }
 
 .header ul li a:hover {
-  
+  background-color: #FFC200;
 }
 
 
