@@ -17,7 +17,7 @@ html, body {
 
 .header {
   padding: 15px 0 0;
-  background-color: #EEEEEE;
+  background-color: #FFC200;
   border-bottom: 1px solid #AAAAAA;
 }
 
@@ -48,7 +48,8 @@ html, body {
 }
 
 .header ul li a:hover {
-  background-color: #FFC200;
+  color: white;
+  background-color: #333333;
 }
 
 
