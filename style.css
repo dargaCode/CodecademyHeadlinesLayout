@@ -14,6 +14,7 @@ html, body {
 
 /*HEADER*/
 
+
 .header {
   padding: 15px 0 0;
   background-color: #FFC200;
@@ -30,10 +31,6 @@ html, body {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-.header ul li {
-
 }
 
 .header ul li a {
@@ -96,10 +93,12 @@ html, body {
   margin-top: 10px;
 }
 
+
 /*CARDS*/
 
+
 .cards {
-  padding-top: 70px;  
+  padding-top: 70px;
 }
 
 .cards h3 {
@@ -122,7 +121,9 @@ html, body {
   margin: 0 auto 25px;
 }
 
+
 /*FOOTER*/
+
 
 .footer .container {
   width: 115px;
@@ -185,19 +186,18 @@ html, body {
 /*MEDIA QUERIES*/
 /*common breaks: 768 992 1200 */
 
-
 /*start scaling cards*/
 /*pop nav inline*/
 @media (min-width: 500px) {
-  
+
   .header ul li {
     display: inline-block;
   }
-  
+
   .header ul li a {
     margin: 0 -2.5px;
   }
-  
+
   .jumbotron h1 {
     max-width: inherit;
     width: 73%;
@@ -205,24 +205,24 @@ html, body {
     font-weight: 500;
     top: 120px;
   }
-  
+
   .banner {
     background-color: aqua;
   }
-  
+
   .cards .row {
     margin-bottom: 100px;
   }
-    
+
   .cards .row .column img {
     width: 60%;
   }
-  
+
 }
 
 /*stop scaling cards*/
 @media (min-width: 768px) {
-    
+
   .container {
     max-width: 750px;
   }
@@ -236,59 +236,59 @@ html, body {
     top: 175px;
     font-size: 42px;
   }
-  
+
 }
 
 /*pop cards into columns*/
 /*pop header into columns*/
 @media (min-width: 992px) {
-  
+
   .container {
     max-width: 940px;
   }
-  
+
   .header {
     padding-top: 25px;
   }
-  
+
   .header h1 {
     float: left;
     margin: 0 0 0 10px;
   }
-  
+
   .header ul {
     float: right;
     margin-right: 10px;
   }
-  
+
   .jumbotron {
     clear: both;
   }
-  
+
   .jumbotron h1 {
     width: 725px;
     font-size: 48px;
     margin-left: 10px;
     top: 160px;
-  }  
+  }
 
   .banner {
     background-color: darkviolet;
   }
-  
+
   .cards .row .column {
     width: 33.33%;
     float: left;
     margin: 0 0 80px;
   }
-  
+
   .cards .row .column img {
     width: auto;
   }
-  
+
   .footer .container {
     width: 100%;
     padding-left: 30px;
   }
-  
+
 }
