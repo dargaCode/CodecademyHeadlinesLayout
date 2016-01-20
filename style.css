@@ -206,10 +206,6 @@ html, body {
     top: 120px;
   }
 
-  .banner {
-    background-color: aqua;
-  }
-
   .cards .row {
     margin-bottom: 100px;
   }
@@ -225,10 +221,6 @@ html, body {
 
   .container {
     max-width: 750px;
-  }
-
-  .banner {
-    background-color: red;
   }
 
   .jumbotron h1 {
@@ -270,10 +262,6 @@ html, body {
     font-size: 48px;
     margin-left: 10px;
     top: 160px;
-  }
-
-  .banner {
-    background-color: darkviolet;
   }
 
   .cards .row .column {
