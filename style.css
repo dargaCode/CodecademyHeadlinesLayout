@@ -128,13 +128,13 @@ html, body {
 
 .footer .container {
   width: 115px
-  
+
 }
 
 .footer {
   clear: both;
   height: 180px;
-  background-color: black;
+  background-color: #333333;
   color: white;
   text-align: left;
   padding: 50px 0;
