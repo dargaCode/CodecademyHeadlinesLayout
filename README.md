@@ -9,4 +9,4 @@ I’ve been wanting to do a project with no bootstrap, and I was pleasantly surp
 
 <a href="http://dargacode.github.io/codecademyHeadlinesLayout/"><strong>Live Webpage</a></a>
 
-<img src ="http://40.media.tumblr.com/638e854d19b4b32e0a1929e7eb99fd8c/tumblr_inline_o18nan8RgB1tvc5hi_1280.png" width=“500" height="500">
+<img src ="http://40.media.tumblr.com/638e854d19b4b32e0a1929e7eb99fd8c/tumblr_inline_o18nan8RgB1tvc5hi_1280.png" width=“400" height="400">
