@@ -3,7 +3,7 @@
 
 My first totally-from-scratch, no-bootstrap webpage, and the first where I’ve worked in source control from the beginning.
 
-I made some changes from the design they provided, and also spent a lot of time to make sure the site was nice and responsive.
+I made some changes from <a href="https://s3.amazonaws.com/codecademy-content/projects/headlines/index.html">the design they provided</a>, and also spent a lot of time to make sure the site was nice and responsive.
 
 I’ve been wanting to do a project with no bootstrap, and I was pleasantly surprised how easy the columns ended up being. 
 
